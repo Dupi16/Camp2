@@ -1,0 +1,248 @@
+body{
+    margin: 0px;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+.upload, .sign-in {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)), url("https://www.cleaneatingmag.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1280/MTYwNTE2OTUyNTMwMzYzNTYz/clean-vegetarian-recipes.jpg");
+    background-size: cover;
+    font-family: 'Arimo', sans-serif;
+    
+}
+
+.sign-in-content {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #12b54e;
+}
+
+.upload-content {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    
+    color: #12b54e;
+}
+
+#sign-in-form {
+    background-color: whitesmoke;
+    height: 300px;
+    width: 240px;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+#upload-form {
+    background-color: whitesmoke;
+    height: 340px;
+    width: 240px;
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#sign-up-form {
+    background-color: whitesmoke;
+    height: 340px;
+    width: 240px;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+#upload-form {
+    background-color: whitesmoke;
+    height: 400px;
+    width: 240px;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.combo {
+    display: flex;
+    flex-flow: column;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    color: #12b54e;
+}
+
+.combo > input {
+    margin: 15px 0px;
+    border-radius: 4px;
+    height: 24px;
+    padding-left: 8px;
+    border: none;
+    box-shadow: 1px 1px 3px gray;
+}
+
+
+#title, #category, #func {
+    margin: 15px 0px;
+    border-radius: 4px;
+    height: 24px;
+    padding-left: 8px;
+    border: none;
+    box-shadow: 1px 1px 3px gray;
+}
+
+#reme {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+#reme > div {
+    line-height: 20px;
+    margin-left: 8px;
+}
+
+#btn_signin {
+    background:#12b54e;
+    border-radius: 24px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    box-shadow: 1px 1px 3px gray;
+    padding: 12px;
+}
+
+#btn_upload {
+    background:#12b54e;
+    border-radius: 24px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    box-shadow: 1px 1px 3px gray;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+#btn_su, #btn_si, #btn_up {
+    color: #12b54e;
+}
+
+
+#btn_su, #btn_up{
+    margin-left: 30px;
+}
+
+#btn_si {
+    margin-left: 800px;
+}
+
+::placeholder {
+    color: gainsboro;
+}
+
+#logo_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 12px;
+}
+
+.navbar {
+    width: 100vw;
+    height: 75px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row; 
+}
+
+#filter{
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid #12b54e;
+    margin-left: 30px;
+}
+
+#product{
+    margin-left: 10px;
+    width: 70%
+}
+
+.page-button{
+    align-self: center;
+    margin-right: 2px;
+    margin-left: 2px; 
+}
+
+.btn {
+    background-color: #12b54e;
+    background:#12b54e;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 1px 1px 3px gray;
+    color: white;
+}
+
+#image-box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.column{
+    display: flex;
+    flex-flow: column;
+}
+
+.category{
+    text-decoration: none;
+    color: #12b54e;
+    margin-top: 60px;
+    font-size: 24px;
+}
+
+.logo {
+    height: 70px;
+}
+
+
+#btn_co, .logo {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#veget {
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.functions_label span {
+    display: inline-block;
+    width: 4px;
+    height: 24px;
+    background: #12b54e;
+    margin-right: 8px;
+}
+
+.functions_label {
+    font-size: 20px;
+    
+}
+
